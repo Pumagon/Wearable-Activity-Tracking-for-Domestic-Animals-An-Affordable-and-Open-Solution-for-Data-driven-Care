@@ -1,0 +1,1 @@
+# Wearable-Activity-Tracking-for-Domestic-Animals-An-Affordable-and-Open-Solution-for-Data-driven-Care
