@@ -1,0 +1,30 @@
+# WiFi settings
+CIRCUITPY_WIFI_SSID = ""
+CIRCUITPY_WIFI_PASSWORD = ""
+
+# NTP Server Settings
+NTP_SERVER = "pool.ntp.org"
+#NTP_SERVER = "time.google.com"
+TZ_OFFSET = "-7" # PDT
+
+# Kintone Settings
+SDOMAIN = ""
+APPID = ""
+TOKEN = ""
+
+# Logging Interval
+SLEEP_INTERVAL = 1 # Logging every 1 seconds
+SUM_ACTIVITY_INTERVAL = 60 # Uploading Sum data to Kintone every X seconds
+
+# +----------------------+-------------------+------------------+
+# | accelerometer_range  | Measurement Range | Max Value (m/s²) |
+# +----------------------+-------------------+------------------+
+# | 0                    | ±2g               | ±19.62          |
+# | 1                    | ±4g               | ±39.24          |
+# | 2                    | ±8g               | ±78.48          |
+# | 3                    | ±16g              | ±156.96         |
+# +----------------------+-------------------+------------------+
+ACCELEROMETER_RANGE = "1"
+
+# Debug
+DEBUG_LOG = 0
